@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Courier New,Times New Roman,Arial;
+}
+
+#todo_1{
+	width: 1400px;
+	margin: auto;
+}
+
+#header_1{
+	height: 80px;
+	width: 100%;
+}
+
+#menu{
+	width: 1400px;
+	height: 300px;	
+}
+
+#contenido{
+	width: 100%;
+	height: 700px;
+}
+
+#footer_1{
+	width: 100%;
+	height: 320px;
+}
+
+#figure_1{
+	width:400px;
+	height:300px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.estilo_menu{
+	width: 100%;
+	height: 100%;
+	padding: 30px/*arriba*/ 0px/*derecha*/ 0px/*abajo*/ 0px/*izquierda*/; 
+	margin: 0px/*arriba*/ 0px/*derecha*/ 0px/*abajo*/ 0px/*izquierda*/;
+}
+
+.estilo_menu_header{
+	display: inline-block;
+	font-weight: bold;
+	float: right;
+	margin: 0px/*arriba*/ 30px/*derecha*/ 0px/*abajo*/ 30px/*izquierda*/;
+	
+}
+
+.estilo_menu_section{
+	display: inline-block;
+	font-weight: bold;
+	margin: 0px/*arriba*/ 20px/*derecha*/ 0px/*abajo*/ 20px/*izquierda*/;
+	
+}
+
+.lista_address{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.icono_address{
+	text-decoration: none;
+	display: inline-block;
+	width: 40px;
+	position: relative;
+	top: 10px;
+	
+}
+
+.estilo_section{  
+	text-decoration: none;
+	background: white;
+	color: black;
+	padding: 10px 20px;
+	display: inline-block;
+	box-shadow: 0px 5px 0px #050B2C;
+	margin: 50px/*arriba*/ 50px/*derecha*/ 0px/*abajo*/ 0px/*izquierda*/;
+	
+}
+
+.estilo_a{
+	text-decoration: none;
+	font-weight: bold;
+	margin: 30px 30px 30px 30px;
+}
+
+.estilo_nav{
+	display: inline-block;
+	padding: 0px/*arriba*/ 0px/*derecha*/ 5px/*abajo*/ 0px/*izquierda*/; 
+	width: 100%;
+	margin: 0px/*arriba*/ 0px/*derecha*/ 10px/*abajo*/ 0px/*izquierda*/;
+	height: 100%;
+}
+
+.estilo_articulos{
+	display: inline-block;
+	padding: 0px/*arriba*/ 0px/*derecha*/ 5px/*abajo*/ 0px/*izquierda*/; 
+	width: 70%;
+	height: auto;
+	margin: 0px/*arriba*/ 0px/*derecha*/ 10px/*abajo*/ 0px/*izquierda*/;
+	float: left;
+	
+}
+
+.estilo_parrafos{
+	width: 90%;
+	background: #D5DFEF;
+	margin: 10px 10px 30px 10px; 
+	padding: 20px 15px 20px 15px; 
+	display: inline-block; 
+}
+
+.estilo_logo{
+	float: left;
+	display: inline-block;
+	margin: 0px/*arriba*/ 0px/*derecha*/ 0px/*abajo*/ 50px/*izquierda*/;
+	width: 270px;
+}
+
+.estilo_aside{
+	background: #D5DFEF;
+	width: 30%;
+	height: 500px;
+	display: inline-block;
+	position: relative;
+}
+
+.estilo_header{ 
+	width: 100%;
+	background:#D5DFEF;
+	padding: 0px/*arriba*/ 0px/*derecha*/ 5px/*abajo*/ 0px/*izquierda*/;  
+	margin: 0px/*arriba*/ 0px/*derecha*/ 10px/*abajo*/ 0px/*izquierda*/;
+}
+
+.estilo_icono{
+	width: 40px;
+	display: inline-block;
+	
+}
+
+.footer_lista{
+	display:inline-block;
+	margin-left: 80px;
+}
+
+.estilo_address{
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+	margin-left: 500px;
+}
+
+.aside_titulo
+{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+
+
+h1{
+	font-size: 37px;
+	color: #68768B;
+	text-shadow: 40px 40px 4px #2E4466;  /* es para agregar sombras*/ 
+}
+
+h2{
+	font-size: 35px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: normal;
+	display: inline-block;
+}
+
+header{
+	width: 100%;
+	height: 100%;
+	background:#D5DFEF;
+}
+
+img { 
+    display: inline-block;
+	height: 100%;
+	width: 100%;
+	
+}
+main
+{
+	width: 100%;
+	height: 100%;
+}
+
+footer{
+	width: 100%;
+	height: 100%;
+	background: #D5DFEF;
+}
+
+address ul li
+{
+	display: inline-block;
+}
+
+a:link{ /*aca modificara los enlaces q no hemos visitados*/}
+
+a:visited{ /*aca modificara todos los enlaces q hemos visitado*/}
+
+nav ul a:hover{ /*aca modificara cada vez q pasemos el mouse por el enlace*/ 
+	    /*OJO:el hover se utiliza en muchas cosas, no solo en los enlaces*/
+		font-style: italic;
+		box-shadow: 0px 2px 0px #050B2C;
+		color: #454B7F;
+		text-decoration: none;
+}
+
+a:active{ /*aca modificara cada vez q hagamos click en el enlace*/
+		box-shadow: none;
+}
