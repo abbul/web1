@@ -1,9 +1,9 @@
 /* SIEMPRE COLOCAR TODO TU CODIGO DE JAVASCRIPT EN UNA FUNCION AUTO INVOCADA.
 	
-	(fuction(){
+	(function(){
 	
 			aca ira todo el codigooooo!!!!
-	}())
+	}());
 
 */
 
