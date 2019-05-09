@@ -1,0 +1,10 @@
+D:\VisualStudio\Vilar.Hernan.2A\Test\bin\Debug\Test.exe.config
+D:\VisualStudio\Vilar.Hernan.2A\Test\bin\Debug\Test.exe
+D:\VisualStudio\Vilar.Hernan.2A\Test\bin\Debug\Test.pdb
+D:\VisualStudio\Vilar.Hernan.2A\Test\bin\Debug\Entidades.dll
+D:\VisualStudio\Vilar.Hernan.2A\Test\bin\Debug\Entidades.pdb
+D:\VisualStudio\Vilar.Hernan.2A\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\VisualStudio\Vilar.Hernan.2A\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Vilar.Hernan.2A\Test\obj\Debug\Test.csproj.CopyComplete
+D:\VisualStudio\Vilar.Hernan.2A\Test\obj\Debug\Test.exe
+D:\VisualStudio\Vilar.Hernan.2A\Test\obj\Debug\Test.pdb
